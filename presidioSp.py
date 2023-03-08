@@ -1,4 +1,3 @@
-import datetime # aqui eu importei a biblioteca de hora da linguagem
 soldado = input("Qual seu QRA?")
 matricula = float (input("Qual a sua matricula?"))
 horario = float(input("Qual o horário do seu turno?"))
