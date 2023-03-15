@@ -6,18 +6,25 @@ ronda = 4.0
 proxima_ronda = 0
 continua = 'sim' 
 contador =0
-while 'sim':
-    print(f"As hondas de celas são feitas de 4 em 4 horas {soldado} portador da matricula: {matricula}")
 #logo a cima dfinimos as variaveis, a baixo de agora em diante vai ser os comandos logicos para definir os horarios.
+#da linha dez em diante temos o while para fazer todas as repetições que o sistema precisar.
+while'sim'!='nao':
+    print(f"As hondas de celas são feitas de 4 em 4 horas {soldado} portador da matricula: {matricula}")
+
    
 
-    if continua=='sim':
+    if continua =='sim':
        
         entrada = (ronda) + (entrada)
         print ("o horario da proxima ronda é ", entrada)
 
-    continua=str(input("digite sim ou não para continuar no sistema "))
-
+    continua=str(input("digite sim ou não para continuar no sistema: "))
+    
+    if continua =='nao':
+        print("voce saiu do sistema")
+        break
+    
+    
 
     
     
